@@ -24,9 +24,10 @@ body {
   font-weight: normal;
   font-style: normal;
   /* background-color: #3745c2; */
-  margin: 200px 40%;
+  /* margin: 200px 10%; */
   /* text-shadow: 0 0 5px #C8C8C8; */
 }
+
 
 form {
   background-color: #202020;
@@ -82,4 +83,88 @@ svg {
   width: 24px;
   height: 24px;
   padding: 10px;
+}
+
+/* Nav
+nav{
+  position:sticky
+} */
+#bar {
+  position: fixed;
+  top: 300px;
+  left: 600px;
+}
+
+@media (max-width: 375px) {
+  #bar {
+    position: fixed;
+    top: 300px;
+    left: 35px;
+  }
+
+}
+
+@media (min-width: 1300px) and (max-width: 1350px) {
+  #bar {
+    position: fixed;
+    top: 300px;
+    left: 550px;
+  }
+}
+
+@media (min-width: 1250px) and (max-width: 1300px) {
+  #bar {
+    position: fixed;
+    top: 300px;
+    left: 450px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1250px) {
+  #bar {
+    position: fixed;
+    top: 300px;
+    left: 400px;
+  }
+}
+
+@media (min-width: 1150px) and (max-width: 1200px) {
+  #bar {
+    position: fixed;
+    top: 300px;
+    left: 350px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1150px) {
+  #bar {
+    position: fixed;
+    top: 300px;
+    left: 300px;
+  }
+}
+
+@media (min-width: 1050px) and (max-width: 1100px) {
+  #bar {
+    position: fixed;
+    top: 300px;
+    left: 250px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1050px) {
+  #bar {
+    position: fixed;
+    top: 300px;
+    left: 150px;
+  }
+}
+
+
+@media (min-width: 1000px) and (max-width: 1050px) {
+  #bar {
+    position: fixed;
+    top: 300px;
+    left: 100px;
+  }
 }
