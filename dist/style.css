@@ -116,7 +116,7 @@ nav{
 
 }
 
-@media (min-width: 1300px) and (max-width: 1350px) {
+/* @media (min-width: 1300px) and (max-width: 1350px) {
   #bar {
     position: fixed;
     top: 300px;
@@ -179,4 +179,4 @@ nav{
     top: 300px;
     left: 100px;
   }
-}
+} */
