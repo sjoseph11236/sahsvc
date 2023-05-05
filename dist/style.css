@@ -7,19 +7,29 @@
 a {
   color: black;
   text-decoration: none;
+  margin-top: 5px;
+}
 
+a:hover {
+  -webkit-transform: scale(1.2);
+  color: red;
+}
+
+.hide {
+  display: none
 }
 
 #box {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   margin-top: 20px;
 }
 
 
-span {
+/* span {
   display: flex;
-}
+} */
 
 /* body {
   margin: 0;
@@ -30,7 +40,7 @@ span {
 body {
   background-color: #FAF8F7;
   height: 100vh;
-  color: rgb(165, 84, 25);
+  /* color: rgb(165, 84, 25); */
   font: 1.3rem;
   font-family: 'Source Code Pro', monospace;
   font-weight: normal;
@@ -97,14 +107,18 @@ svg {
   padding: 10px;
 }
 
-/* Nav
-nav{
-  position:sticky
+/*
+nav {
+  position: sticky;
+  color: white;
+  width: 100%;
 } */
+
+
 #bar {
   position: fixed;
   top: 300px;
-  left: 600px;
+  left: 500px;
 }
 
 @media only screen and (min-width: 414px) and (max-width: 767px) {
